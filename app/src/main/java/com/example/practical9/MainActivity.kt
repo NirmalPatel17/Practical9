@@ -70,7 +70,6 @@ class MainActivity : AppCompatActivity() {
             this,
             Manifest.permission.READ_SMS
         ) == PackageManager.PERMISSION_GRANTED
-
     private val isSMSWritePermission: Boolean
         get() = ContextCompat.checkSelfPermission(
             this,
